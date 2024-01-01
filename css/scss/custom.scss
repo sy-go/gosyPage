@@ -4,7 +4,10 @@ $success:       #72ddd8 ;
 $info:          #165f4c ;
 $warning:       #a5751b ;
 $danger:        #900c5b ;
-$light:         #bfd6ffe6 ;
-$dark:        #2a2a9539  ;
+$light:         #bccdeae6 ;
+$dark:        #251c60c2  ;
+
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+$gradientR: linear-gradient(toright , rgba($primary, .15), rgba($white, 0));
