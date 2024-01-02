@@ -45,28 +45,37 @@
 
     <!-- Mobile nav-->
 
+    <div id="mobilenav" class="d-md-none">
 
-    <div id="mobilenav" class="d-md-none border-bottom border-secondary">
-      <nav class="navbar bg-primary bg-gradient  p-0 d-flex justify-items-between">
-        <div class="container-fluid d-flex justify-items-between p-0">
-          <button class="navbar-toggler bg-primary " type="button" data-bs-toggle="collapse"
-            data-bs-target="#mobileNavbarToggler" aria-controls="mobileNavbarToggler" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <img class="img-fluid" src="./media/menu-burger-white.png" alt="mobile nav icon" style="height: 1.5rem;">
+      <nav class="navbar navbar-dark bg-primary bg-gradient">
+        <div class="container-fluid">
+          <button class="navbar-toggler border-1 border-secondary" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <img class="img-fluid p-1 m-0" src="./media/menu-burger-white.png" style="height: 2rem;"
+              alt="mobile main menu icon">
           </button>
-          <img class="img-fluid col-6 p-0 m-0" src="./media/zellaStudio_resized (1).PNG">
+
+          <img class="img-fluid col-6 p-0 m-0" src="./media/zellaStudio_resized (1).PNG" alt="company logo imabe">
+
         </div>
       </nav>
-      <div class="collapse" id="mobileNavbarToggler" data-bs-theme="light">
-        <div class="bg-dark p-0">
-          <a class="btn btn-outline-secondary nav-link  bg-gradient  text-white  fw-bold p-2 rounded-0 " href="#!"
-            type="button" role="button">MAIN</a>
-          <a class="btn btn-outline-secondary nav-link  bg-gradient  text-white  fw-bold p-2 rounded-0"
+
+      <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-primary bg-gradient p-0">
+          <a class="btn btn-primary  nav-link  bg-gradient text-white rounded-0 p-2  fw-bold "
+            href="#!" type="button" role="button">MAIN</a>
+          <a class="btn btn-primary  nav-link  bg-gradient text-white rounded-0 p-2  fw-bold"
             href="#!projects" type="button" role="button">PROJECTS</a>
-          <a class="btn btn-outline-secondary nav-link  bg-gradient  text-white  fw-bold p-2 rounded-0" href="#!contact"
-            type="button" role="button">CONTACT</a>
+          <a class="btn btn-primary  nav-link  bg-gradient text-white rounded-0 p-2  fw-bold"
+            href="#!contact" type="button" role="button">CONTACT</a>
         </div>
       </div>
+
+
+
+
+
     </div>
   </header>
 
